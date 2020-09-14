@@ -1,0 +1,41 @@
+<%- include("partials/header") %>
+
+
+<div class="container login">
+		<h3 class="move">
+			Register
+		</h3>
+		<div class="row">
+			<div class="col col-sm-12">
+				<form method="POST" action="/register">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text ">Username</span>
+						</div>
+						<input type="text" name="username" class="form-control">
+					</div>
+
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text pass" >Password</span>
+						</div>
+						<input type="password" name="password" class="form-control">
+					</div>
+					<button class="btn btn-success">
+						Sign Up
+					</button>
+				</form>
+
+			</div>
+			<div class="col col-sm-12">
+				<h5 class="member">
+					Already a member?
+				</h5>
+				<p>
+					<a href="/login" class="btn btn-primary btn-md">Sign In</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+<%- include("partials/footer") %>
