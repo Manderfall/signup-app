@@ -1,0 +1,37 @@
+body,html{
+	height:100%;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+div.container.login{
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column
+}
+div.input-group{
+	margin-bottom:15px;
+}
+h3.move{
+	font-weight:700;
+	margin-bottom:15px;
+}
+h5.member{
+	margin-bottom:15px;
+}
+button{
+margin-left:105px !important;
+	padding-left:17px !important;
+	padding-right:17px !important;
+	margin-bottom:10px !important;
+	
+}
+div.col.col-sm-12{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+span.input-group-text.pass{
+	padding-right:17px;
+}
