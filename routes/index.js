@@ -9,7 +9,7 @@ const User = require("../models/user");
 router.get("/", (req, res) => {
 	res.render("login");
 });
-/* ------------------ */
+
 
 /* registration */
 router.get("/newUser", (req, res) => {
@@ -34,7 +34,7 @@ router.post("/register", (req, res) => {
 	});
 
 });
-/* ------------------ */
+
 
 /* login/logout */
 router.get("/login", (req, res) => {
@@ -59,6 +59,6 @@ function isLoggedIn(req, res, next) {
 	}
 	res.redirect("/login");
 }
-/* ------------------ */
+
 
 module.exports = router;

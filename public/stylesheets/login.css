@@ -1,7 +1,9 @@
+/* General */
 body,html{
 	height:100%;
 	font-family: 'Noto Sans JP', sans-serif;
 }
+/* Full Container */
 div.container.login{
 	height:100%;
 	display:flex;
@@ -9,22 +11,34 @@ div.container.login{
 	align-items:center;
 	flex-direction:column
 }
+/* Input Spacing */
 div.input-group{
 	margin-bottom:15px;
 }
+span.input-group-text.pass{
+	padding-right:17px;
+}
+/* Font and Spacing sizes */
 h3.move{
 	font-weight:700;
+	font-size:40px;
 	margin-bottom:15px;
 }
 h5.member{
+	font-weight:400;
+	font-size:32px;
 	margin-bottom:15px;
 }
-button{
-margin-left:105px !important;
-	padding-left:17px !important;
-	padding-right:17px !important;
-	margin-bottom:10px !important;
-	
+/* Button Styling and Sizing */
+button.btn{
+	margin-left:110px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10px;	
+}
+a.btn.btn-primary{
+	padding-left:15px;
+	padding-right:15px;
 }
 div.col.col-sm-12{
 	display:flex;
@@ -32,10 +46,8 @@ div.col.col-sm-12{
 	align-items:center;
 	flex-direction:column;
 }
-span.input-group-text.pass{
-	padding-right:17px;
-}
 
+/* Logout Styling */
 div.logout{
 	height:100%;
 	display:flex;
