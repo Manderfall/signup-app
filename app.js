@@ -51,10 +51,12 @@ app.use((req, res, next) => {
 // Globals //
 const port = 3000;
 // Routes //
+const indexRoutes =require("./routes/index");
 const loginRoutes = require("./routes/login");
 const newUserRoutes = require("./routes/newUser");
 const successRoutes = require("./routes/success")
 
+app.use(indexRoutes);
 app.use(loginRoutes);
 app.use(newUserRoutes);
 app.use(successRoutes);

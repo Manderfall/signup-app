@@ -1,4 +1,3 @@
-const item = require("../models/item");
 
 var middlewareScript = {
 	// Authentication //
