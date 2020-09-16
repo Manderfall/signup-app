@@ -54,13 +54,15 @@ const port = 3000;
 const indexRoutes =require("./routes/index");
 const loginRoutes = require("./routes/login");
 const newUserRoutes = require("./routes/newUser");
-const successRoutes = require("./routes/success")
+const successRoutes = require("./routes/success");
+const logoutRoutes = require("./routes/logout");
+
 
 app.use(indexRoutes);
 app.use(loginRoutes);
 app.use(newUserRoutes);
 app.use(successRoutes);
-
+app.use(logoutRoutes);
 // START/LISTEN//		
 app.listen(port, () => { console.log(`Listening on port ${port}`); });
 	
